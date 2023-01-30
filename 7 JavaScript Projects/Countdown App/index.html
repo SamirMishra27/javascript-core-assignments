@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown App</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-ui">
+        <div class="countdown-input">
+            <p>Enter the date and time when should the timer end (NOTE: Enter date and time in UTC)</p>
+            <input type="datetime-local" name="time-picker" id="time-picker-box">
+        </div>
+        <div class="countdown-window">
+            <div class="timer-section">
+                <div class="timer-category day"><p>00</p></div>
+                <div class="info">DAYS</div>
+            </div>
+
+            <p class="colon-separator">:</p>
+
+            <div class="timer-section">
+                <div class="timer-category hour"><p>00</p></div>
+                <div class="info">HOURS</div>
+            </div>
+
+            <p class="colon-separator">:</p>
+
+            <div class="timer-section">
+                <div class="timer-category minute"><p>00</p></div>
+                <div class="info">MINUTES</div>
+            </div>
+
+            <p class="colon-separator">:</p>
+
+            <div class="timer-section">
+                <div class="timer-category second"><p>00</p></div>
+                <div class="info">SECONDS</div>
+            </div>
+        </div>
+        <div class="control-panel">
+            <button class="start-timer", style="--colour: #A61F69; --colour-hover: #ba2577;">START</button>
+            <button class="stop-timer", style="--colour: #A61F69; --colour-hover: #ba2577;">STOP</button>
+            <button class="reset-timer", style="--colour: #F55050; --colour-hover: #f56666;">RESET</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
