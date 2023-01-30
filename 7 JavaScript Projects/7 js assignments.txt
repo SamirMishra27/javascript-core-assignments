@@ -1,0 +1,27 @@
+1.  Calculator App:
+Build a simple calculator app which performs simple arithmetic operations such as addition, subtraction, multiplication and division.
+
+
+3. Countdown App:
+Build a countdown app which takes the start position from the user and on reaching zero,the countdown stops.
+
+
+5. Palindrome Checker Game:
+Users can enter text or numbers and check whether the entered value is palindrome or not by clicking on the check button.
+
+
+9. Typing Game:
+On clicking on start typing the counter starts and displays the time the user takes to type.
+
+
+16. Random Quote Generator:
+Build a Quote generator app on each refresh that gives us different quotes.
+
+
+23. Autocomplete Search:
+When a user searches anything in the search bar, suggestions must be shown in the dropdown(Don't use any frameworks).
+
+
+25. Theme Changer:
+
+Users can select if they want dark or light mode on selection immediate selection must occur.
